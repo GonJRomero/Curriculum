@@ -1,0 +1,64 @@
+.titulo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.titulo .titulo1{
+    grid-template-columns: 1fr;
+}
+.titulo .boton{
+    grid-template-columns: 1fr;
+}
+.btn1{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    width: 210px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Estilos para la barra de navegación (nav) */
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+}
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.lista{
+    list-style: none;
+}
+.lista1{
+    list-style: none;
+}
+footer{
+    margin-top: 50px;
+}

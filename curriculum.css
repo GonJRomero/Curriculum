@@ -1,0 +1,85 @@
+aside{
+    background-color: white;
+    width: 45%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    color: white;
+}
+article{
+    background-color: black;
+    width: 55%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    color: white;
+}
+.español{
+    left: 10px;
+    
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'DM Sans', sans-serif;
+}
+.elemento1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.elemento1 .idiomas{
+    grid-template-columns: 1fr;
+}
+.elemento1 .comentarios{
+    grid-template-columns: 1fr;
+}
+textarea{
+    resize: none;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    flex-basis: 300px;
+    transition: 0.3s;
+    height: 104px;
+    width: 265px;
+}
+textarea:focus{
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+.aprendizaje{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    width: 210px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+.experiencia{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    width: 115px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+.habilidades{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    width: 115px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
